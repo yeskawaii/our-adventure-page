@@ -86,6 +86,7 @@ header a:hover{
 .nav__title {
   font-weight: 400;
   font-size: 15px;
+  font-family: 'Pacifico', cursive;
 }
 
 .footer address {
@@ -134,12 +135,6 @@ header a:hover{
 .nav__ul a {
   color: #ffffff;
 }
-
-.nav__ul--extra {
-  column-count: 2;
-  column-gap: 1.25em;
-}
-
 .legal {
   display: flex;
   flex-wrap: wrap;
