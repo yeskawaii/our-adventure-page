@@ -39,9 +39,16 @@ header a:hover{
 .content-description{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 3vh 5vw;
+    padding: 3vh 5vw;
+    border-radius: 50px;
+    background-color: rgb(235, 235, 235);
 }
 
+.content-description p{
+    font-family: 'Sigmar', cursive;
+}
 
 /* division necesaria */
 *, *:before, *:after {
