@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body{
     margin: 0;
 }
@@ -17,15 +18,23 @@ header .container{
     font-family: 'Libre Baskerville', serif;
 }
 
-header a{
+header .container a{
     color: beige;
     text-decoration: none;
     font-size:  4vh;
 }
 
-header a:hover{
+header .container a:hover{
     color: rgb(180, 180, 143);
 }
+
+header .container .dropdown_div a{
+  color: black;
+  text-decoration: none;
+  font-size:  4vh;
+}
+
+
 
 .content{
     display: flex;
@@ -173,4 +182,61 @@ header a:hover{
 .button:hover {
   background-color: #524BFF;
 }
+
+
+/* barra*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+  top: 100%;
+  margin-top: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#accessibility-options {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  background-color: #ACB1D6;
+  padding: 10px;
+  display: none;
+  box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.3);
+}
+
+#accessibility-options label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#font-size-slider {
+  width: 200px;
+}
+
+#text-to-speech-toggle {
+  margin-top: 10px;
+}
+
+/*Menu*/
+
+
 
