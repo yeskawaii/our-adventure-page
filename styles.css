@@ -160,3 +160,17 @@ header a:hover{
     flex: 2 0px;
   }
 }
+.button {
+  background-color: #4bcbdf;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #524BFF;
+}
+

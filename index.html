@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/braille-type" rel="stylesheet">
 </head>
 <body>
         <header>
@@ -16,15 +17,26 @@
                 <a href="https://github.com/yeskawaii/our-adventure-page" tabindex="1" accesskey="g" title="Repositorio del proyecto">Git</a>
                 <a href="#" tabindex="2" accesskey="p" title="Actualmente no funciona">Julio</a>
                 <a href="#" tabindex="3" accesskey="ñ" title="Actualmente no funciona">Andrea</a>
+                <button class="button" id="accessibility-toggle" tabindex="7">Opciones de accesibilidad</button>
             </div>
         </header>
+
+        <div id="accessibility-options" style="display: none;">
+          <label for="font-size-slider">Tamaño de fuente:</label>
+          <input type="range" id="font-size-slider" min="12" max="36" step="1">
+          <label for="text-to-speech-toggle">Lectura en voz alta:</label>
+          <input type="checkbox" id="text-to-speech-toggle">
+        </div>
         <div class="content">
+          <div class="content-description">
+            <p>En este proyecto lo que se llevara a cabo es una pagina web en donde va a ser desarrollada con accesibilidad para la materia, pero más que nada con el fin de conmemorar todas las veces que hemos salido juntos como pareja, así como todos los momentos felices que hemos estado.</p>
+          </div>
             <div class="content-description">
                 <picture>
                     <source width="300px" heigth="300px" srcset="https://i.pinimg.com/564x/28/82/cf/2882cf611582ae52cd4bbe8c5e670e9a.jpg" media="(min-width: 600px)">
                     <img width="150px" heigth="150px" src="https://images.vexels.com/media/users/3/299367/isolated/lists/50ac129fb016f89f1a7737d44729d187-entradas-de-cine-de-teatro.png" alt="imagen de cine">
                 </picture>
-                <p>En esta cita fue la primera vez que nos encontramos y tambien de las que mas disfrutamos</p>
+                <p>Nuestra primera cita fue en el cine, una experiencia que persoinalmente nunca olvidare</p>
             </div>
             <div class="content-description">
                 <picture>
@@ -81,5 +93,8 @@
         </div>
       </footer>
 
+
+     
 </body>
+<script src="script.js"></script>
 </html>
